@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+.message{
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	margin:auto;
+	padding-bottom: 80px;
+}
+
+.textarea{
+	width: 85%;
+	margin:auto;
+}
+.textarea h1{
+	padding-top: 80px;
+}
+.textarea h1 span{
+	font-size:80px;
+	color: #000;
+	border-bottom: 4px solid black;
+	
+	padding-bottom: 10px;
+	text-decoration: overline 4px;
+	font-family: 'Italianno', cursive;
+   text-shadow: 10px 10px 0px rgba(0,0,0,0.1); 
+}
+.textarea p{
+	margin-top: 70px;
+	letter-spacing: 1px;
+	font: 400 16px/1.8 'Merienda One', Helvetica, sans-serif;
+  	color: rgba(0,0,0,0.7);
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Solve the riddle</title>
+  <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Open+Sans+Condensed:300" rel="stylesheet"><link rel="stylesheet" href="./css/style_riddle.css">
+
+</head> 
+<body>
+<!-- partial:index.partial.html -->
+<main class="view0--active">
+  <div class="modal">
+    <div class="nav default-color">
+      <div class="next nav-icon"><svg fill="#ececec" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></div>
+      <div class="prev nav-icon"><svg fill="#ececec" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/><path d="M0-.5h24v24H0z" fill="none"/></svg></div>
+    </div>
+    <div class="modal__body">
+      <div class="circ">
+        <div class="circ3 default-color"></div>
+        <div class="circ2"></div>
+        <div class="circ1 default-color"></div>
+      </div>
+      <div class="content">
+        <div class="tt">
+          <h1 class="content__title">Welcome</h1>
+          <p class="content__desc">He was on his knees said "Will you be my soulmate?"
+            she was overwhlemed,<br>
+            Thousands of thoughts at a time in her mind<br>
+            but her heart whispered "Dont think, just save the date!!!!</p>
+           <p class="content__desc">Enter Your Answer:
+           </p>
+              
+            
+            <input type="password" id="fname"  placeholder="Socho Socho.....">
+            <button class="btn-riddle"onclick="submit_funct()">Submit</button>
+
+        </div>
+      </div>
+      </div>
+  </div>
+</main>
+<!-- partial -->
+   <script>
+    function submit_funct(){
+    
+  var ans= document.getElementById('fname').value;
+
+
+  if(ans=="19012020"){
+    alert("Thats the correct Answer baby!!!")
+    alert("Now redirecting to your  gift....")
+    if(confirm("Pakka gift dekhna hai??")){
+      alert("Acha ye last alert hai!! Now pakka redirectiong to your gift ... I hope you like it!!!")
+    window.location = "./pages/main.html";
+  }
+  else{
+    alert("Tumko gift nahi dekhna...?")
+    alert("Seriously? Tumko nahi lgta kuch jyda hi risk le liye ho tum.......Bhad me jao!!! meko baat hi nahi krni Bye Good nite tata!")
+  }
+  }
+  else{
+    alert("Nahi! Ye nahi Ye galat jawab hai phirse try karo!")
+  }
+}
+   </script>   
+
+</body>
+</html>
