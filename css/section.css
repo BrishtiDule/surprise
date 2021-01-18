@@ -48,6 +48,9 @@
 .proposal-story p{
 
  font-family: 'Italianno', cursive;
+	font-size:24px;
+	letter-spacing: 3px;
+	line-height:6px;
 }
 
 /* End of Proposal story section */
